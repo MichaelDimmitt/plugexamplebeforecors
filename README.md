@@ -7,7 +7,17 @@ Documentation used for setting up a plug application:
 
 
 ## Installation
+git clone https://github.com/MichaelDimmitt/plugexamplebeforecors.git
+cd plugexamplebeforecors
+mix deps.get
 
+
+## Steps for making the project:
+mix new plugexamplebeforecors
+cd plugexamplebeforecors
+mix deps.get
+
+## If published and you want as a dependency(not currently implemented)
 ~If [available in Hex](https://hex.pm/docs/publish), the package can be installed~
 <br/>~by adding `plugexamplebeforecors` to your list of dependencies in `mix.exs`:~
 
